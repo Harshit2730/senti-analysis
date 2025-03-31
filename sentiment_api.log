@@ -1,0 +1,64 @@
+2025-03-31 14:18:26,500 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.4.96:5000
+2025-03-31 14:18:26,500 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 14:18:26,501 - INFO -  * Restarting with stat
+2025-03-31 14:18:27,009 - WARNING -  * Debugger is active!
+2025-03-31 14:18:27,012 - INFO -  * Debugger PIN: 815-023-573
+2025-03-31 14:22:48,282 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.4.96:5000
+2025-03-31 14:22:48,283 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 14:22:48,284 - INFO -  * Restarting with stat
+2025-03-31 14:22:48,702 - WARNING -  * Debugger is active!
+2025-03-31 14:22:48,705 - INFO -  * Debugger PIN: 815-023-573
+2025-03-31 14:25:07,683 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.4.96:5000
+2025-03-31 14:25:07,683 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 14:25:07,684 - INFO -  * Restarting with stat
+2025-03-31 14:25:08,099 - WARNING -  * Debugger is active!
+2025-03-31 14:25:08,102 - INFO -  * Debugger PIN: 815-023-573
+2025-03-31 14:25:55,137 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.4.96:5000
+2025-03-31 14:25:55,137 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 14:25:55,138 - INFO -  * Restarting with stat
+2025-03-31 14:25:55,590 - WARNING -  * Debugger is active!
+2025-03-31 14:25:55,593 - INFO -  * Debugger PIN: 815-023-573
+2025-03-31 14:26:16,180 - INFO - Sentiment analysis successful: {'original_text': 'I love this product!', 'cleaned_text': 'I love this product', 'sentiment': 'positive', 'textblob_polarity': 0.5, 'textblob_subjectivity': 0.6, 'vader_compound': 0.6369, 'combined_polarity': 0.56845}
+2025-03-31 14:26:16,181 - INFO - 127.0.0.1 - - [31/Mar/2025 14:26:16] "POST /analyze-sentiment HTTP/1.1" 200 -
+2025-03-31 14:26:54,205 - INFO -  * Detected change in 'C:\\Users\\hbj33\\PycharmProjects\\senti-analysis\\test_endpoint.py', reloading
+2025-03-31 14:26:54,255 - INFO -  * Restarting with stat
+2025-03-31 14:26:54,690 - WARNING -  * Debugger is active!
+2025-03-31 14:26:54,693 - INFO -  * Debugger PIN: 815-023-573
+2025-03-31 14:26:55,828 - WARNING - Empty text provided
+2025-03-31 14:26:55,828 - INFO - 127.0.0.1 - - [31/Mar/2025 14:26:55] "[31m[1mPOST /analyze-sentiment HTTP/1.1[0m" 400 -
+2025-03-31 14:27:14,565 - INFO -  * Detected change in 'C:\\Users\\hbj33\\PycharmProjects\\senti-analysis\\test_endpoint.py', reloading
+2025-03-31 14:27:14,606 - INFO -  * Restarting with stat
+2025-03-31 14:27:15,026 - WARNING -  * Debugger is active!
+2025-03-31 14:27:15,029 - INFO -  * Debugger PIN: 815-023-573
+2025-03-31 14:27:16,721 - WARNING - Text too long: 1001 characters
+2025-03-31 14:27:16,722 - INFO - 127.0.0.1 - - [31/Mar/2025 14:27:16] "[31m[1mPOST /analyze-sentiment HTTP/1.1[0m" 400 -
+2025-03-31 14:27:52,303 - INFO -  * Detected change in 'C:\\Users\\hbj33\\PycharmProjects\\senti-analysis\\test_endpoint.py', reloading
+2025-03-31 14:27:52,351 - INFO -  * Restarting with stat
+2025-03-31 14:27:52,783 - WARNING -  * Debugger is active!
+2025-03-31 14:27:52,785 - INFO -  * Debugger PIN: 815-023-573
+2025-03-31 14:27:53,963 - INFO - Sentiment analysis successful: {'original_text': 'I hate this product!', 'cleaned_text': 'I hate this product', 'sentiment': 'negative', 'textblob_polarity': -0.8, 'textblob_subjectivity': 0.9, 'vader_compound': -0.5719, 'combined_polarity': -0.6859500000000001}
+2025-03-31 14:27:53,963 - INFO - 127.0.0.1 - - [31/Mar/2025 14:27:53] "POST /analyze-sentiment HTTP/1.1" 200 -
+2025-03-31 14:28:32,248 - INFO - Sentiment analysis successful: {'original_text': 'I hate this product!', 'cleaned_text': 'I hate this product', 'sentiment': 'negative', 'textblob_polarity': -0.8, 'textblob_subjectivity': 0.9, 'vader_compound': -0.5719, 'combined_polarity': -0.6859500000000001}
+2025-03-31 14:28:32,248 - INFO - 127.0.0.1 - - [31/Mar/2025 14:28:32] "POST /analyze-sentiment HTTP/1.1" 200 -
+2025-03-31 14:29:33,099 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.4.96:5000
+2025-03-31 14:29:33,100 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 14:29:33,100 - INFO -  * Restarting with stat
+2025-03-31 14:29:33,529 - WARNING -  * Debugger is active!
+2025-03-31 14:29:33,532 - INFO -  * Debugger PIN: 815-023-573
+2025-03-31 14:29:44,405 - INFO - Sentiment analysis successful: {'original_text': 'I hate this product!', 'cleaned_text': 'I hate this product', 'sentiment': 'negative', 'textblob_polarity': -0.8, 'textblob_subjectivity': 0.9, 'vader_compound': -0.5719, 'combined_polarity': -0.6859500000000001}
+2025-03-31 14:29:44,406 - INFO - 127.0.0.1 - - [31/Mar/2025 14:29:44] "POST /analyze-sentiment HTTP/1.1" 200 -
