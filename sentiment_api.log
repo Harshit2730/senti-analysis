@@ -62,3 +62,31 @@
 2025-03-31 14:29:33,532 - INFO -  * Debugger PIN: 815-023-573
 2025-03-31 14:29:44,405 - INFO - Sentiment analysis successful: {'original_text': 'I hate this product!', 'cleaned_text': 'I hate this product', 'sentiment': 'negative', 'textblob_polarity': -0.8, 'textblob_subjectivity': 0.9, 'vader_compound': -0.5719, 'combined_polarity': -0.6859500000000001}
 2025-03-31 14:29:44,406 - INFO - 127.0.0.1 - - [31/Mar/2025 14:29:44] "POST /analyze-sentiment HTTP/1.1" 200 -
+2025-04-01 15:13:39,886 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.4.96:5000
+2025-04-01 15:13:39,887 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-01 15:13:39,889 - INFO -  * Restarting with stat
+2025-04-01 15:13:40,291 - WARNING -  * Debugger is active!
+2025-04-01 15:13:40,305 - INFO -  * Debugger PIN: 815-023-573
+2025-04-01 15:18:41,296 - INFO - 127.0.0.1 - - [01/Apr/2025 15:18:41] "GET /health HTTP/1.1" 200 -
+2025-04-01 15:19:38,105 - INFO - 127.0.0.1 - - [01/Apr/2025 15:19:38] "[35m[1mGET /rate-limit-status HTTP/1.1[0m" 500 -
+2025-04-01 15:24:31,663 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.4.96:5000
+2025-04-01 15:24:31,663 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-01 15:24:31,664 - INFO -  * Restarting with stat
+2025-04-01 15:24:32,078 - WARNING -  * Debugger is active!
+2025-04-01 15:24:32,081 - INFO -  * Debugger PIN: 815-023-573
+2025-04-01 15:24:38,331 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.4.96:5000
+2025-04-01 15:24:38,331 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-01 15:24:38,331 - INFO -  * Restarting with stat
+2025-04-01 15:24:38,736 - WARNING -  * Debugger is active!
+2025-04-01 15:24:38,741 - INFO -  * Debugger PIN: 815-023-573
+2025-04-01 15:24:51,087 - INFO - 127.0.0.1 - - [01/Apr/2025 15:24:51] "[35m[1mGET /rate-limit-status HTTP/1.1[0m" 500 -
+2025-04-01 15:25:02,320 - INFO - 127.0.0.1 - - [01/Apr/2025 15:25:02] "GET /health HTTP/1.1" 200 -
